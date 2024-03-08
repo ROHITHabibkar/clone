@@ -137,7 +137,7 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
-.button > *{
+.button > * {
   margin: 0 12px;
 }
 .signupbtn:hover {
@@ -145,7 +145,7 @@ body {
   color: white;
 }
 
-.loginbtn{
+.loginbtn {
   background-color: white;
   border-radius: 21px;
   color: black;
@@ -153,26 +153,21 @@ body {
   width: 79px;
   padding: 9px;
   cursor: pointer;
- 
 }
 
-.loginbtn:hover{
-  
+.loginbtn:hover {
   width: 81px;
- font-size: 15px;
- 
-
+  font-size: 15px;
 }
 
-.songbuttons{
+.songbuttons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-
-.playbar{
+.playbar {
   border-radius: 20px;
   position: absolute;
   bottom: 0;
@@ -181,4 +176,6 @@ body {
   padding: 10px;
 }
 
-
+a {
+  color: white;
+}
